@@ -49,4 +49,13 @@ body{
 
 .hero_container{
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-bg{
+    z-index: -1;
+    display: block;
+    position: absolute;
+    pointer-events: none;
+   
 }
