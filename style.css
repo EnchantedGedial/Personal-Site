@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color:  rgb(15,23,41); */
+    background-color:  #0f1729;
+    color: hsla(217, 24%, 59%, 1);
+}
+body{
+    /* width: 75%; */
+    margin: auto;
+}
+#nav_logos{
+    width: 143px;
+    height: 79px;
+}
+
+.navbar{
+    width: 75%;
+    display:flex;
+    justify-content: space-between;
+    margin-top: 22px;
+    margin: auto;
+}
+.nav_items ul{
+    display: flex;
+    list-style: none;
+}
+.navListitems{
+    padding: 18px;
+
+}
+.navbtn{
+    padding: 8px 16px;
+    border-radius:6px ;
+    color: white;
+    margin-top: 16px;
+    /* background-color:  linear-gradient(90deg, #0ea5ea, #0bd1d1 51%, #0ea5ea); */
+    background-color: rgb(12,197,216);
+}
+.nav_text_items{
+    font-size: 18px;
+}
+
+
+
+
+
+
+.hero_container{
+    width: 100%;
+}
