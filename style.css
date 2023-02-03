@@ -10,14 +10,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-color:  rgb(15,23,41);
-    background-color:  #0f1729; */
+   
     color: hsla(217, 24%, 59%, 1);
     transition: all .4s ;
-    /* transition-timing-function: ease-out; */
+    
+   
 }
 html{
     scroll-behavior: smooth;
+   
 }
 body{
     width: 85%;
@@ -72,11 +73,12 @@ body{
 
 
 .hero_container{
-    padding-top: 120px;
+    /* padding-top: 120px; */
+    align-items: center;
     width: 75%;
     margin: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     /* background-image: url(shadow-1.svg); */
 
 }
@@ -153,7 +155,7 @@ body{
 /* Styling container 1 */
 
 .container1{
-    padding-top: 75px;
+    padding-top: 200px;
   
    
 }
@@ -692,4 +694,50 @@ font-size: 35px;
 .icon{
     height: 10px;
     font-size: 20px;
+}
+.hero-img{
+    width:400;
+     height:500 ;
+     padding-top:130px ;
+     padding-left:130px ;
+     /* display: flex;
+     justify-content: center;
+     align-items: center; */
+     left: 40px;
+}
+
+@media only screen and (max-width:950px){
+    .hero-img{
+        padding-top: 210px;
+    }
+}
+@media only screen and (max-width:922px){
+    .hero-img{
+        padding-top: 210px;
+    }
+    .hero_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .right_heropart{
+        margin: auto;
+    }
+}
+@media only screen and (max-width:1400px){
+    .con1packets{
+        display: flex;
+        flex-direction: column;margin: auto;
+        width: 60%;
+
+    }
+    .cont1_heading{
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+#hero{
+    display: flex;
+    justify-content: space-between;
 }

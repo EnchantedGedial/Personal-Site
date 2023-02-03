@@ -29,9 +29,16 @@ body{
 
 .proj-type1{
     display: flex;
+    /* flex-wrap: wrap; */
     justify-content: space-between;
     border-radius: 8px;
     /* border-radius: 8px; */
+}
+.Pro-Exp_more-btn{
+
+    border-radius: 1px solid;
+    background-color: aqua;
+
 }
 
 
