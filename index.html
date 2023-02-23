@@ -4,483 +4,609 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Jay's Personal Site</title>
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="css/Progress_bar.css">
         <script src="https://kit.fontawesome.com/8024a195c7.js" crossorigin="anonymous"></script>
+        <title>Jay's Personal Site</title>
     </head>
     <body>
 
-        <section>
+
+        <!-- ========== NavBar============ -->
+        <nav class="navbar">
+            <div class="navBar_logo">
+                <a href="#hero">
+                    <img src="pixles/logo.svg" width="119" height="37" alt="Wren logo" id="nav_logos"></a>
+            </div>
+            <div class="nav_items">
+                <ul>
+                    <li class="navListitems">
+                        <a href="#" class="nav_text_items bakra">Home</a>
+                    </li>
+                    <li class="navListitems">
+                        <a href="#Blogs" class="nav_text_items">Blogs</a>
+                    </li>
+                    <li class="navListitems">
+                        <a href="#projects" class="nav_text_items">Projects</a>
+                    </li>
+                    <li class="navListitems">
+                        <a href="#contact" class="nav_text_items">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="navbar_btn">
+                <button class="navbtn">
+                    <a class="nav_text_its" href="#work">Work With Us
+                    </a>
+                </button>
+            </div>
+        </nav>
+        
 
 
-            <nav class="navbar">
-                <div class="navBar_logo">
-                    <a href="#hero">
-                    <img src="pixels -personal site/logo.svg" width="119" height="37" alt="Wren logo" id="nav_logos"></a>
+
+        <!-- ========== Hero Container ============ -->
+        <div class="hero_container" id="hero">
+
+
+            <div class="right_heropart">
+               <a href="projectView.html">
+                    Hey There !!</a>
+                <div class="Hero_name">I'm Jayanth
                 </div>
-                <div class="nav_items">
-                    <ul>
-                        <li class="navListitems">
-                            <a href="#" class="nav_text_items">Home</a>
-                        </li>
-                        <li class="navListitems">
-                            <a href="#Blogs" class="nav_text_items">Blogs</a>
-                        </li>
-                        <li class="navListitems">
-                            <a href="#projects" class="nav_text_items">Projects</a>
-                        </li>
-                        <li class="navListitems">
-                            <a  href="#contact" class="nav_text_items" >Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="navbar_btn">
-                    <button class="navbtn"> <a  class="nav_text_its" href="#work">Work With Us </a> </button>
-                </div>
-            </nav>
-
-            <div class="hero_container" id="hero">
-
-                <!-- <img src="pixels -personal site/logo.svg" width="119" height="37" alt="Wren logo" id="nav_logos" class="hero-bg-img"> -->
-                <!-- <img src="pixels -personal site/shadow-1.svg" width="500" height="500" alt="" class="hero-bg hero-bg-2">
-                                                                                                                            <img src="pixels -personal site/shadow-2.svg" width="500" height="500" alt="" class="hero-bg hero-bg-2"> -->
-
-                    <div class="right_heropart"> <a>
-                        Hey There !!</a>
-                    <div class="Hero_name">I'm Jayanth
+                <div class="hero_intro">Hello, my name is Jayanth and I am a wonderfull and creative web developer. I have a passion for creating visually stunning websites that not only look good, but also function seamlessly.</div>
+                <div class="form">
+                    <div class="hero_form_div">
+                        <a  class="hero_form_btn" download="CV.pdf">Download CV </a>
+                        <a href="#Work" class="hero_form_btn">Book A Call 
+                            </a>
                     </div>
-                    <div class="hero_intro">Hello, my name is Jayanth and I am a wonderfull and creative web developer. I have a passion for creating visually stunning websites that not only look good, but also function seamlessly.</div>
-                    <div class="form">
-                        <div
-                            class="hero_form_div">
-                            <!-- <input type="email" class="hero_form"> -->
-                            <button class="hero_form_btn">Download CV</button>
-                            <button class="hero_form_btn">Book A Call</button>
-                        </div>
-                    </div>
-
-
                 </div>
 
-
-                <div class="left_heropart">
-                    <img src="heroimg.png"  class ="hero-img"  width="800px" alt="Wren Clark" class="w-100">
-                </div>
 
             </div>
 
 
-            <div class="container1">
-
-                <div class="con1_heading">Areas of Intrest</div>
-                <div class="con1packets">
+            <div class="left_heropart">
 
 
-                    <div class="con1pac1 conpac">
+                <a href="#">
+                    <img src="pixles/hero-banner.png" class="hero-img" alt="Wren Clark"></a>
 
 
-                        <img src="pixels -personal site/Weddev Cover.webp" alt="" class="cont1pack_img  cont1pack1_img">
+            </div>
+
+        </div>
+
+        <!-- ========== Areas of Intrest ============ -->
+
+        <div class="container1">
+
+            <div class="heading">Areas of Intrest</div>
+            <div class="con1packets">
+
+
+                <div class=" conpac">
+
+                    <div class="card_img">
+
+                        <img src="pixles/webDev.png" alt="" class="cont1pack_img ">
+                    </div>
+                    <div class="card_content">
+
                         <div class="cont1packs_heading ">Web Development</div>
                         <div class="cont1packs_disc">Explore more on what is there in loren23  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, quae.</div>
-                        <button onclick="window.location.href='WebDev.html';" class="cont1pack_explore">Explore More</button>
-
-
+                        <button onclick="window.location.href='projectOver.html';" class="cont1pack_explore">Explore More</button>
                     </div>
 
 
-                    <div class="con1pac2 conpac">
-                        <img src="pixels -personal site/insta-post-3.png" alt="" class="cont1pack_img">
+                </div>
+
+
+                <div class="conpac">
+                    <div class="card_img">
+
+                        <img src="pixles/nocode.jpg" alt="" class="cont1pack_img">
+                    </div>
+                    <div class="card_content">
+
                         <div class="cont1packs_heading">PhotoGraphy</div>
                         <div class="cont1packs_disc">Explore more on what is there in loren23  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, quae.</div>
-                        <button onclick="window.location.href='PhotoGraphy.html';" class="cont1pack_explore">Explore More</button>
+                        <button onclick="window.location.href='photography.html';" class="cont1pack_explore">Explore More</button>
                     </div>
 
+                </div>
 
-                    <div class="con1pac3 conpac">
-                        <img src="pixels -personal site/insta-post-5.png" alt="" class="cont1pack_img">
+
+                <div class="conpac">
+                    <div class="card_img">
+
+                        <img src="pixles/photog.jpg" alt="" class="cont1pack_img">
+                    </div>
+                    <div class="card_content">
+
                         <div class="cont1packs_heading">No-Code Development</div>
                         <div class="cont1packs_disc">Explore more on what is there in loren23  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, quae.</div>
-                        <button onclick="window.location.href='HTML/No-Code.html   '; " class="cont1pack_explore">Explore More</button>
+                        <button onclick="window.location.href='projectOver.html  '; " class="cont1pack_explore">Explore More</button>
                     </div>
+
                 </div>
             </div>
+        </div>
+
+        <!-- ========== Projects============ -->
+
+        <div class="projects" id="projects">
+            <div class="heading">Projects</div>
+            <div class="projX">
 
 
-            <div class="projects" id="projects">
-                <div class="proj_heading progressSkills">Projects</div>
-                <div class="proj1 projX">
-
-
-                    <div class="right_proj_part">
-                        <img src="callie-free-template-353x278.jpg.webp" alt="" class="rig-pro-img">
-                    </div>
-                    <div class="left_proj_part">
-                        <div class="proj-title">Blogs Site with CMS</div>
-                        <div class="proj-disc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, dolores vitae consectetur laudantium ad, illum vel non quas eius ullam sint, harum quam.</div>
-                        <div class="proj-meta">Blogs</div>
-                    </div>
+                <div class="right_proj_part">
+                    <img src="pixles/proj-main-1.webp" alt="" class="rig-pro-img">
                 </div>
-                <div class="proj2 projX">
-
-
-                    <div class="left_proj_part left_proj_2">
-                        <div class="proj-title">Blogs Site with CMS</div>
-                        <div class="proj-disc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, dolores vitae consectetur laudantium ad, illum vel non quas eius ullam sint, harum quam.</div>
-                        <div class="proj-meta">Blogs</div>
-                    </div>
-                    <div class="right_proj_part">
-                        <img src="capitalshop-free-template-388x306.jpg" alt="" class="rig-pro-img">
-                    </div>
+                <div class="left_proj_part">
+                    <div class="proj-title">Blogs Site with CMS</div>
+                    <div class="proj-disc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, dolores vitae consectetur laudantium ad, illum vel non quas eius ullam sint, harum quam.</div>
+                    <div class="proj-meta">Blogs</div>
                 </div>
-                <div class="proj3 projX">
-
-
-                    <div class="right_proj_part">
-                        <img src="calvino-free-template-388x306.jpg" alt="" class="rig-pro-img">
-                    </div>
-                    <div class="left_proj_part">
-                        <div class="proj-title">Blogs Site with CMS</div>
-                        <div class="proj-disc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, dolores vitae consectetur laudantium ad, illum vel non quas eius ullam sint, harum quam.</div>
-                        <div class="proj-meta">Blogs</div>
-                    </div>
-
-                </div>
-                <div class="proj_explore">
-                    <button class="exp-btn-proj">
-                        <a href="WebDev.html" class="Exp-proj">Explore More <i class="fa-solid fa-arrow-right icon"></i></a>
-                    </button>
-                </div>
-
             </div>
+            <div class="projX">
 
 
-            <div class=" progress_container">
+                <div class="left_proj_part left_proj_2">
+                    <div class="proj-title">E-commerce clone</div>
+                    <div class="proj-disc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, dolores vitae consectetur laudantium ad, illum vel non quas eius ullam sint, harum quam.</div>
+                    <div class="proj-meta">Blogs</div>
+                </div>
+                <div class="right_proj_part">
+                    <img src="pixles/fucker.jpg" alt="" class="rig-pro-img">
+                </div>
+            </div>
+            <div class="projX">
 
-                <div class="progressSkills">Skill Levels</div>
-                <div class="progress_card">
 
-
-                    <div class="progress-circle over50 p83">
-                        <span>HTML</span>
-                        <div class="left-half-clipper">
-                            <div class="first50-bar"></div>
-                            <div class="value-bar"></div>
-                        </div>
+                <div class="right_proj_part">
+                    <img src="pixles/proj-main-2.jpg" alt="" class="rig-pro-img">
+                </div>
+                <div class="left_proj_part">
+                    <div class="proj-title">Real Estate Site</div>
+                    <div class="proj-disc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, dolores vitae consectetur laudantium ad, illum vel non quas eius ullam sint, harum quam.</div>
+                    <div class="proj-meta">
+                        <span>#Business
+                        </span>
+                        <span>#Frontend
+                        </span>
+                        <span>#Static Site
+                        </span>
                     </div>
-                    <div class="progress-circle over50 p66">
-                        <span>CSS</span>
-                        <div class="left-half-clipper">
-                            <div class="first50-bar"></div>
-                            <div class="value-bar"></div>
-                        </div>
-                    </div>
-                    <div class="progress-circle over50 p77">
-                        <span>JS</span>
-                        <div class="left-half-clipper">
-                            <div class="first50-bar"></div>
-                            <div class="value-bar"></div>
-                        </div>
-                    </div>
-
-
                 </div>
 
             </div>
+            <div class="proj_explore">
+                <button class="exp-btn-proj">
+                    <a href="projectOver.html" class="Exp-proj">Explore More
+                        <i class="fa-solid fa-arrow-right icon"></i>
+                    </a>
+                </button>
+            </div>
+
+        </div>
+
+    <!-- ========== Blogs ============ -->
+    
+    <div class="heading">Blogs</div>
+        <div class="con1packets">
 
 
-            <div class="container2">
-                <div class="con2_heading">Blogs</div>
-                <div class="con2packets">
-                    <div class="con2pac1 conpac">
+            <div class=" conpac">
 
+                <div class="card_img">
 
-                        <img src="productive.avif" alt="" class="cont1pack_img  cont1pack1_img">
-                        <div class="cont1packs_heading">Productivity</div>
-                        <div class="cont1packs_disc">Explore more on what is there in loren23  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, quae.</div>
-                        <button onclick="window.location.href='HTML/WebDev.html';" class="cont1pack_explore">Explore More</button>
+                    <img src="pixles/how-to.jpg" alt="" class="cont1pack_img ">
+                </div>
+                <div class="card_content">
 
-
-                    </div>
-                    <div class="con2pac2 conpac">
-
-
-                        <img src="how-to.jpg" alt="" class="cont1pack_img  cont1pack1_img">
-                        <div class="cont1packs_heading">How-To</div>
-                        <div class="cont1packs_disc">Explore more on what is there in loren23  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, quae.</div>
-                        <button onclick="window.location.href='HTML/WebDev.html';" class="cont1pack_explore">Explore More</button>
-
-
-                    </div>
-                    <div class="con2pac3 conpac">
-
-
-                        <img src="techno.jpg" alt="" class="cont1pack_img  cont1pack1_img">
-                        <div class="cont1packs_heading">Techonology</div>
-                        <div class="cont1packs_disc">Explore more on what is there in loren23  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, quae.</div>
-                        <button onclick="window.location.href='HTML/WebDev.html';" class="cont1pack_explore">Explore More</button>
-
-
-                    </div>
-
-
+                    <div class="cont1packs_heading ">How To</div>
+                    <div class="cont1packs_disc">Explore more on what is there in loren23  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, quae.</div>
+                    <button onclick="window.location.href='BlogsList.html';" class="cont1pack_explore">Explore More</button>
                 </div>
 
 
             </div>
-            <div class="featuredim">
 
 
-                <div class="con2_heading">Featured In</div>
+            <div class="conpac">
+                <div class="card_img">
 
+                    <img src="pixles/productive.avif" alt="" class="cont1pack_img">
+                </div>
+                <div class="card_content">
 
-                <section
-                    class="featured">
-                    <!-- <a href="https://www.producthunt.com/posts/css-scan-3-0?utm_source=badge-featured&amp;utm_medium=badge&amp;utm_souce=badge-css-scan-3-0" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=352897&amp;theme=light" alt="CSS Scan 3.0 - The fastest and easiest way to check, copy and edit CSS ⚡️ | Product Hunt Embed" style="width: 250px; height: 54px; margin-right: 3em; filter: saturate(1); opacity: 1;" width="250px" height="54px"></a> -->
-                    <div class="logo-wrapper">
-                        <a href="https://twitter.com/smashingmag/status/1029259616423747584" target="_blank" rel="noopener noreferrer">
-                            <img src="https://d33wubrfki0l68.cloudfront.net/b3d31afe4d057570cf878f2c4347ca58dd68ab3b/821ac/img/logos/smashing.png" alt="Smashing Magazine Logo">
-                        </a>
-                    </div>
-                    <div class="logo-wrapper">
-                        <a href="https://twitter.com/css/status/1025065340743680001" target="_blank" rel="noopener noreferrer">
-                            <img src="https://d33wubrfki0l68.cloudfront.net/41893089aa507522ed323b48f3e057c66f4f276a/d380a/img/logos/csstricks.png" alt="CSS Tricks Logo">
-                        </a>
-                    </div>
-                    <div class="logo-wrapper">
-                        <a href="https://news.ycombinator.com/item?id=17609252" target="_blank" rel="noopener noreferrer">
-                            <img src="https://d33wubrfki0l68.cloudfront.net/ab05b103b627b7bbac2e827bf0ebbe26623387f3/918db/img/logos/hn.png" alt="Hacker News Logo">
-                        </a>
-                    </div>
-                    <div class="logo-wrapper">
-                        <a href="https://www.macg.co/logiciels/2019/05/css-scan-simplifie-lanalyse-du-style-des-sites-dans-chrome-et-firefox-106182" target="_blank" rel="noopener noreferrer">
-                            <img src="https://d33wubrfki0l68.cloudfront.net/6de33bf66d7af7cf3f057592834290a54fce6df3/9d995/img/logos/macg.png" alt="MacGeneration Logo">
-                        </a>
-                    </div>
-                    <div class="logo-wrapper">
-                        <a href="https://t3n.de/news/css-scan-fuer-den-browser-code-mit-nur-einem-klick-kopieren-und-ueberpruefen-1098276/" target="_blank" rel="noopener noreferrer">
-                            <img src="https://d33wubrfki0l68.cloudfront.net/e167c6a867b1f4122c371d11246e80a8cd3679f0/3c773/img/logos/t3n.png" alt="t3n Logo">
-                        </a>
-                    </div>
-                </section>
-            </div>
-
-            <!-- <div class="featured_in">
-                                    <div>
-                        
-                                        <img src="pixels -personal site/amazon.png" alt="" class="fetered_company">
-                                        <img src="pixels -personal site/google.png" alt="" class="fetered_company">
-                                        <img src="pixels -personal site/netflix.png" alt="" class="fetered_company">
-                                        <img src="pixels -personal site/micro.png" alt="" class="fetered_company"></div>
-                                </div> -->
-
-
-            <div class="container3" id="Blogs">
-                <div class="con2_heading">Recent posts</div>
-                <div class="cont3TagLine">Don't miss the latest trends</div>
-
-
-                <div class="cont3_blocks">
-
-
-                    <div class="cont3_rightBlock">
-
-
-                        <div class="cont3_RB_cards">
-
-
-                            <div class="r_card_left_pix">
-
-                                <img src="pixels -personal site/recent-post-1.jpg" alt="" class="RB_caed-img">
-                            </div>
-
-
-                            <div class="r_card_right_info">
-                                <div class="c3_card_heading">Helpful Tips for Working from Home as a Freelancer</div>
-                                <div class="c3_card_catagery">Freelance</div>
-                                <div class="c3_card_shortintro">Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard roadrunner flapped lynx far that and jeepers giggled far and far</div>
-                                <div class="c3_card_meta_info">
-                                    <div class="c3_card_tags">#Freelance #WFH</div>
-
-                                    <div class="c3_card_time to read">10 mins read</div>
-
-                                </div>
-                            </div>
-
-                        </div>
-
-
-                        <div class="cont3_RB_cards">
-
-                            <div class="r_card_left_pix">
-
-                                <img src="pixels -personal site/recent-post-3.jpg" alt="" class="RB_caed-img">
-                            </div>
-
-
-                            <div class="r_card_right_info">
-                                <div class="c3_card_heading">Helpful Tips for Working from Home as a Freelancer</div>
-                                <div class="c3_card_catagery">Freelance</div>
-                                <div class="c3_card_shortintro">Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard roadrunner flapped lynx far that and jeepers giggled far and far</div>
-                                <div class="c3_card_meta_info">
-                                    <div class="c3_card_tags">#Freelance #WFH</div>
-
-                                    <div class="c3_card_time to read">10 mins read</div>
-
-                                </div>
-                            </div>
-
-                        </div>
-
-
-                        <div class="cont3_RB_cards">
-
-                            <div class="r_card_left_pix">
-
-                                <img src="pixels -personal site/recent-post-4.jpg" alt="" class="RB_caed-img">
-                            </div>
-
-
-                            <div class="r_card_right_info">
-                                <div class="c3_card_heading">Helpful Tips for Working from Home as a Freelancer</div>
-                                <div class="c3_card_catagery">Freelance</div>
-                                <div class="c3_card_shortintro">Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard roadrunner flapped lynx far that and jeepers giggled far and far</div>
-                                <div class="c3_card_meta_info">
-                                    <div class="c3_card_tags">#Freelance #WFH</div>
-
-                                    <div class="c3_card_time to read">10 mins read</div>
-
-                                </div>
-                            </div>
-
-                        </div>
-
-
-                    </div>
-
-
-                    <div class="cont3_leftBlock">
-                        <img src="ad-1.jpg" alt="" class="con3-left-img">
-                    </div>
-
+                    <div class="cont1packs_heading">Productivity</div>
+                    <div class="cont1packs_disc">Explore more on what is there in loren23  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, quae.</div>
+                    <button onclick="window.location.href='BlogsList.html';" class="cont1pack_explore">Explore More</button>
                 </div>
 
             </div>
 
 
-            <div class="contact" id="contact">
-                <div class="con2_heading">Contact Us</div>
+            <div class="conpac">
+                <div class="card_img">
 
-                <div class="contactUS">
-                    <div class="right-contact">
-                        <img src="5143151.jpg" alt="" class="rig-cont-img cont-img">
-                    </div>
-                    <div
-                        class="left-contact">
-                        <!-- <div class="cont_head">Contact Us</div> -->
-                        <div class="cont_value">
-                            <div class="email  size ">
-                                <span class="cont_val">
-                                    Email :
-                                </span>
-                                <span class="location">
-                                    <a href="#" class="hplink">
-                                        Jay.codmik.18@gmail.com
-                                    </a>
-                                </span>
-                            </div>
-                            <div class="Phone  size ">
-                                <span class="cont_val">
-                                    Phone no :
-                                </span>
-                                <span class="location">
-                                    <a href="#" class="hplink">8660134253</a>
-                                </span>
-                            </div>
-                            <div class="Address  size ">
-                                <span class="cont_val">
-                                    Address:
-                                </span>
-                                <span class="location">
-                                    <a href="https://goo.gl/maps/LPhPQjHX17YGY6gW6" class="hplink">WG37+7WP, Dr.Vishnuvardhan Rd, next to VV Convention Hall, Channasandra, Srinivaspura, Bengaluru, Karnataka 560098, India
-                                    </a>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
+                    <img src="pixles/techno.jpg" alt="" class="cont1pack_img">
+                </div>
+                <div class="card_content">
+
+                    <div class="cont1packs_heading">Technology</div>
+                    <div class="cont1packs_disc">Explore more on what is there in loren23  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad, quae.</div>
+                    <button onclick="window.location.href='BlogsList.html'; " class="cont1pack_explore">Explore More</button>
                 </div>
 
             </div>
+        </div>
+    </div>
+
+        <!-- ========== Worked With ============ -->
+    <div class="featuredim">
 
 
-            <div class="work" id="work">
-                <div class="con2_heading">Work With Us</div>
-                <div>
-                    <div class="work_with-us">
-                        <div class="left-work">
-                            <span class="wewdsd">
-                                <input type="text" placeholder="Name" class="inp12">
-                                <input type="email" placeholder="Email" class="inp12">
-                            </span>
+        <div class="heading"> Worked With</div>
 
-                            <!-- <input type="" placeholder="Phone No" class="inp1"> -->
-                            <input type="text" placeholder="Subject" class="inp13">
-                            <input type="text" placeholder="Discription" class="inp2">
-                            <div class="navbar_btn">
-                                <button class="navbtn htn">Work With Us</button>
-                            </div>
-                        </div>
-                        <div class="right-work">
-                            <img src="programmer_v_02.jpg" class="cont-img" alt="">
-                        </div>
-                        
-                    </div>
-                </div>
 
+        <section
+            class="featured">
+            <!-- <a href="https://www.producthunt.com/posts/css-scan-3-0?utm_source=badge-featured&amp;utm_medium=badge&amp;utm_souce=badge-css-scan-3-0" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=352897&amp;theme=light" alt="CSS Scan 3.0 - The fastest and easiest way to check, copy and edit CSS ⚡️ | Product Hunt Embed" style="width: 250px; height: 54px; margin-right: 3em; filter: saturate(1); opacity: 1;" width="250px" height="54px"></a> -->
+            <div class="logo-wrapper">
+                <a href="https://twitter.com/smashingmag/status/1029259616423747584" target="_blank" rel="noopener noreferrer">
+                    <img src="https://d33wubrfki0l68.cloudfront.net/b3d31afe4d057570cf878f2c4347ca58dd68ab3b/821ac/img/logos/smashing.png" alt="Smashing Magazine Logo">
+                </a>
             </div>
-
-
-            <section class="footer">
-                <div class="logo-footer">
-                    <img src="pixels -personal site/logo.svg" alt="" class="ligo--fiiter">
-                </div>
-                <div class="imp-links">
-                    <ul>
-                        <li class="lista">Home</li>
-                        <li class="lista">About Me</li>
-                        <li class="lista">ContactMe</li>
-                        <li class="lista">My Works</li>
-                    </ul>
-                </div>
-                <div class="Social-Meia">
-                    <ul>
-                        <li class="lista">Instagram</li>
-                        <li class="lista">Twitter</li>
-                        <li class="lista">Github</li>
-                        <li class="lista">Stack Overflow</li>
-                    </ul>
-                </div>
-                <div class="pages">
-                    <ul>
-                        <li class="lista">Blogs</li>
-                        <li class="lista">Projects</li>
-                        <li class="lista">ContactMe</li>
-                        <li class="lista">My Works</li>
-                    </ul>
-                </div>
-                <div class="contactdet">
-                    <ul>
-                        <li class="lista">Phone Number</li>
-                        <li class="lista">Email ID</li>
-                        <li class="lista">Proffection Id</li>
-                        <li class="lista">Tele number</li>
-                    </ul>
-                </div>
-            </section>
+            <div class="logo-wrapper">
+                <a href="https://twitter.com/css/status/1025065340743680001" target="_blank" rel="noopener noreferrer">
+                    <img src="https://d33wubrfki0l68.cloudfront.net/41893089aa507522ed323b48f3e057c66f4f276a/d380a/img/logos/csstricks.png" alt="CSS Tricks Logo">
+                </a>
+            </div>
+            <div class="logo-wrapper">
+                <a href="https://news.ycombinator.com/item?id=17609252" target="_blank" rel="noopener noreferrer">
+                    <img src="https://d33wubrfki0l68.cloudfront.net/ab05b103b627b7bbac2e827bf0ebbe26623387f3/918db/img/logos/hn.png" alt="Hacker News Logo">
+                </a>
+            </div>
+            <div class="logo-wrapper">
+                <a href="https://www.macg.co/logiciels/2019/05/css-scan-simplifie-lanalyse-du-style-des-sites-dans-chrome-et-firefox-106182" target="_blank" rel="noopener noreferrer">
+                    <img src="https://d33wubrfki0l68.cloudfront.net/6de33bf66d7af7cf3f057592834290a54fce6df3/9d995/img/logos/macg.png" alt="MacGeneration Logo">
+                </a>
+            </div>
+            <div class="logo-wrapper">
+                <a href="https://t3n.de/news/css-scan-fuer-den-browser-code-mit-nur-einem-klick-kopieren-und-ueberpruefen-1098276/" target="_blank" rel="noopener noreferrer">
+                    <img src="https://d33wubrfki0l68.cloudfront.net/e167c6a867b1f4122c371d11246e80a8cd3679f0/3c773/img/logos/t3n.png" alt="t3n Logo">
+                </a>
+            </div>
         </section>
+    </div>
 
+
+     <!-- ========== Recent Posts ============ -->
+
+    <div class="container3" id="Blogs">
+        <div class="heading">Recent posts</div>
+        <div class="cont3TagLine">Don't miss the latest trends</div>
+
+
+        <div class="cont3_blocks">
+
+
+            <div class="cont3_rightBlock">
+
+
+                <div class="cont3_RB_cards">
+
+
+                    <div class="r_card_left_pix">
+
+                        <!-- <img src="pixles/freelance.png" alt="" class="RB_caed-img"> -->
+                    </div>
+
+
+                    <div class="r_card_right_info">
+                        <div class="c3_card_heading">Helpful Tips for Working from Home as a Freelancer</div>
+                        <div class="c3_card_catagery">Freelance</div>
+                        <div class="c3_card_shortintro">Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard roadrunner flapped lynx far that and jeepers giggled far and far</div>
+                        <div class="c3_card_meta_info">
+                            <div class="c3_card_tags">#Freelance #WFH</div>
+
+                            <div class="c3_card_time to read">10 mins read</div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="cont3_RB_cards">
+
+                    <div class="r_card_left_pix">
+
+                        <!-- <img src="pixles/Work.jpg" alt="" class="RB_caed-img"> -->
+                    </div>
+
+
+                    <div class="r_card_right_info">
+                        <div class="c3_card_heading">Helpful Tips for Working from Home as a Freelancer</div>
+                        <div class="c3_card_catagery">Freelance</div>
+                        <div class="c3_card_shortintro">Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard roadrunner flapped lynx far that and jeepers giggled far and far</div>
+                        <div class="c3_card_meta_info">
+                            <div class="c3_card_tags">#Freelance #WFH</div>
+
+                            <div class="c3_card_time to read">10 mins read</div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="cont3_RB_cards">
+
+                    <div class="r_card_left_pix">
+
+                        <img src="pixels -personal site/recent-post-4.jpg" alt="" class="RB_caed-img">
+                    </div>
+
+
+                    <div class="r_card_right_info">
+                        <div class="c3_card_heading">Helpful Tips for Working from Home as a Freelancer</div>
+                        <div class="c3_card_catagery">Freelance</div>
+                        <div class="c3_card_shortintro">Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard roadrunner flapped lynx far that and jeepers giggled far and far</div>
+                        <div class="c3_card_meta_info">
+                            <div class="c3_card_tags">#Freelance #WFH</div>
+
+                            <div class="c3_card_time to read">10 mins read</div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+            <div class="cont3_leftBlock">
+                <img src="pixles/ad-1.jpg" alt="" class="con3-left-img">
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+     <!-- ========== Testimonial ============ -->
+    <section class="sdsti">
+        <div class="heading">Testimonial</div>
+
+
+        <div class="testimonial">
+            <div class="testri">
+                <div class="hypenLogo">
+                    <i class="fa-solid fa-quote-left quote"></i>
+                </div>
+                <div class="TestiContent">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident libero nisi laborum sunt doloribus veniam quam. </p>
+                </div>
+                <hr class="dash">
+                <div class="reviewDetail">
+                    <div class="name">
+                       <a href="projectView.html">Jayanth</a>
+                    </div>
+                    <div class="organization">
+                       <a href="projectView.html">CEO CodeSpace</a>
+                    </div>
+                    <!-- <div class="organization"><a >CEO CodeSpace</a> </div> -->
+                </div>
+            </div>
+            <div class="testri">
+                <div class="hypenLogo">
+                    <i class="fa-solid fa-quote-left quote"></i>
+                </div>
+                <div class="TestiContent">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident libero nisi laborum sunt doloribus veniam quam. </p>
+                </div>
+                <hr class="dash">
+                <div class="reviewDetail">
+                    <div class="name">
+                       <a href="projectView.html">Jayanth</a>
+                    </div>
+                    <div class="organization">
+                       <a href="projectView.html">CEO CodeSpace</a>
+                    </div>
+                </div>
+            </div>
+            <div class="testri">
+                <div class="hypenLogo">
+                    <i class="fa-solid fa-quote-left quote"></i>
+                </div>
+                <div class="TestiContent">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident libero nisi laborum sunt doloribus veniam quam. </p>
+                </div>
+                <hr class="dash">
+                <div class="reviewDetail">
+                    <div class="name">
+                       <a href="projectView.html">Jayanth</a>
+                    </div>
+                    <div class="organization">
+                       <a href="projectView.html">CEO CodeSpace</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+     <!-- ========== Contact Us ============ -->
+    <div class="contact" id="contact">
+        <div class="heading">Contact Us</div>
+
+        <div class="contactUS">
+            <div class="right-contact">
+                <img src="pixles/5143151.jpg" alt="" class="rig-cont-img">
+            </div>
+            <div
+                class="left-contact">
+                <!-- <div class="cont_head">Contact Us</div> -->
+                <div class="cont_value">
+                    <div class="email  size ">
+                        <span class="cont_val">
+                            Email :
+                        </span>
+                        <span class="location">
+                            <a href="#" class="hplink">
+                                Jay.codmik.18@gmail.com
+                            </a>
+                        </span>
+                    </div>
+                    <div class="Phone  size ">
+                        <span class="cont_val">
+                            Phone no :
+                        </span>
+                        <span class="location">
+                            <a href="#" class="hplink">8660134253</a>
+                        </span>
+                    </div>
+                    <div class="Address  size ">
+                        <span class="cont_val">
+                            Address:
+                        </span>
+                        <span class="location">
+                            <a href="https://goo.gl/maps/LPhPQjHX17YGY6gW6" class="hplink">WG37+7WP, Dr.Vishnuvardhan Rd, next to VV Convention Hall, Channasandra, Srinivaspura, Bengaluru, Karnataka 560098, India
+                            </a>
+                        </span>
+                    </div>
+                    <div class="SocialMedia ">
+                        <a href="#">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-stack-overflow"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+   <!-- ========== Work with  Us ============ -->
+    <div class="work" id="work">
+        <div class="heading">Work With Us</div>
+        <div>
+            <div class="work_with-us">
+                <div class="left-work">
+                    <span class="wewdsd">
+                        <input type="text" placeholder="Name" class="inp12">
+                        <input type="email" placeholder="Email" class="inp12">
+                    </span>
+
+                    <!-- <input type="" placeholder="Phone No" class="inp1"> -->
+                    <input type="text" placeholder="Subject" class="inp13">
+                    <input type="text" placeholder="Discription" class="inp2">
+                    <div class="navbar_btn">
+                        <button class="navbtn htn" id="WWU-btn">Work With Us</button>
+                    </div>
+                </div>
+                <div class="right-work">
+                    <img src="pixles/programmer_v_02.jpg" class="cont-img" alt="">
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- ========== Footer ============ -->
+    <footer>
+        <section class="footer">
+            <div class="logo-footer">
+                <img src="pixles/logo.svg" alt="" class="ligo--fiiter">
+            </div>
+            <div class="links-footer">
+                <div class="imp-links">
+                <ul>
+                    <li class="lista">Home</li>
+                    <li class="lista">About Me</li>
+                    <li class="lista">ContactMe</li>
+                    <li class="lista">My Works</li>
+                </ul>
+            </div>
+            <div class="Social-Meia">
+                <ul>
+                    <li class="lista">Instagram</li>
+                    <li class="lista">Twitter</li>
+                    <li class="lista">Github</li>
+                    <li class="lista">Stack Overflow</li>
+                </ul>
+            </div>
+            <div class="pages">
+                <ul>
+                    <li class="lista">Blogs</li>
+                    <li class="lista">Projects</li>
+                    <li class="lista">ContactMe</li>
+                    <li class="lista">My Works</li>
+                </ul>
+            </div>
+            <div class="contactdet">
+                <ul>
+                    <li class="lista">Phone Number</li>
+                    <li class="lista">Email ID</li>
+                    <li class="lista">Proffection Id</li>
+                    <li class="lista">Tele number</li>
+                </ul>
+            </div>
+            </div>
+            
+        </section>
+    </footer>
+    <div class="moblefooter">
+        <div class="logo">
+
+            <img src="pixles/logo.svg" alt="" class="ligo-1-fiiter">
+        </div>
+        <div class="SocialMedia ">
+            <a href="#">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-stack-overflow"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+        </div>
+        <div>Made With 💓 By - Jayanth</div>
+    </div>
+
+
+<script src="script.js"></script>
 
     </body>
-
-
-</html></div></div></body><body></body></html>
+</html>
