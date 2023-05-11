@@ -1,0 +1,109 @@
+
+body{
+    width: 75%;
+    margin: auto;   
+}
+html{
+    scroll-behavior: smooth;  
+}
+.siteTitle{
+    /* width: 75%;
+    margin: auto; */
+    font-size: 1.846em;
+    padding-top: 130px;
+}
+
+.discriSite{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 150px;
+}
+.rular{
+    margin: 4px;
+}
+.discContent{
+    padding-top:20px ;
+    
+}
+.metainfo{
+    padding-top:20px ;
+}
+.siteDiscription{
+    width: 50%;
+}
+.contentFont{
+    font-size: 1.2em;
+}
+.headRules{
+    font-size: 35px;
+    padding: 8px;
+    color: black;
+}
+.infographs{
+    padding: 8px;
+}
+.sitpic{
+   
+    /* height: 600px; */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.previewSite{
+    
+    padding-top: 30px;
+   
+    
+
+}
+.preview{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        padding: 8px;
+        border-radius: 4px;
+        /* font-size: 18px; */
+        background-color: rgb(185,126,187);
+        color: white;
+    
+    border: 1px solid rgb(185,126,187) ;
+
+    }
+    .cbl{
+        color: white;
+    }
+ 
+    @media only screen and (max-width:1024px){
+        *{
+            width: 95%;
+            margin: auto;
+        }
+
+        .discriSite{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .siteDiscription{
+            width: 100%;
+        }
+        .siteDetails{
+            width: 100%;
+        }
+    
+    
+ }
+    @media only screen and (max-width:750px){
+        .sitpic{
+            width: 200px;
+            height: 300px;
+
+        }
+
+      
+ }
+
+    
+ 

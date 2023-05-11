@@ -47,7 +47,9 @@ body{
     justify-content: space-between;
    
 }
-
+/* .hero-img{
+    width: 50%;
+} */
 .Hero_name{
     font-size: 60px;
     color:  #0bd1d1 ;
@@ -839,8 +841,23 @@ font-size: 35px;
 }
 .nav_text_items{
     text-decoration: none;
-    font-size: 18px;
+    /* font-size: 18px; */
+    text-transform: uppercase;
+  text-decoration: none;
+  /* letter-spacing: 0.15em; */
+  
+  display: inline-block;
+  /* padding: 15px 20px; */
+  position: relative;
 }
+.nav_text_items:hover{
+    
+    font-size: 24px;
+    color: #08f4f4;
+    
+}
+
+ 
 
 .nav_text_its{
     text-decoration: none;

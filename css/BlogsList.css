@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: 'Itim', cursive;
+}
+body{
+
+    width: 85%;
+    margin: auto;
+
+}
+
+
+
+
+
+html{
+    scroll-behavior: smooth;  
+}
+
+.otherscontentCards{
+ justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.cardfs{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;    
+    justify-content: center;
+    align-items: center;
+   
+}
+.XCards{
+    margin: 20px;
+    gap: 20px;
+    width: 300px;
+    height: 300px;
+
+}
+.small-pack-con{
+    /* width: 100%; */
+    margin: 20px 0px 20px 0px;
+}

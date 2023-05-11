@@ -49,16 +49,15 @@
 
 
             <div class="right_heropart">
-               <a href="projectView.html">
-                    Hey There !!</a>
-                <div class="Hero_name">I'm Jayanth
-                </div>
+               <a >Hey There !!</a>
+                <div class="Hero_name">I'm Jayanth</div>
                 <div class="hero_intro">Hello, my name is Jayanth and I am a wonderfull and creative web developer. I have a passion for creating visually stunning websites that not only look good, but also function seamlessly.</div>
                 <div class="form">
                     <div class="hero_form_div">
-                        <a  class="hero_form_btn" download="CV.pdf">Download CV </a>
-                        <a href="#Work" class="hero_form_btn">Book A Call 
-                            </a>
+                        <a href="./pdf/Jayanth 's  CV.pdf"  class="hero_form_btn" download="./pdf/Jayanth 's  CV.pdf">Download CV </a>
+                        <!-- <a href="#Work" class="hero_form_btn">Book A Call  </a> -->
+                        <a class="hero_form_btn" href="#work">Book A Call
+                        </a>
                     </div>
                 </div>
 
@@ -70,7 +69,7 @@
 
 
                 <a href="#">
-                    <img src="pixles/hero-banner.png" class="hero-img" alt="Wren Clark"></a>
+                    <img src="pixles/hero-banner.png" class="hero-img" alt="Wren Clark " > </a>
 
 
             </div>
@@ -512,18 +511,21 @@
     <div class="work" id="work">
         <div class="heading">Work With Us</div>
         <div>
+            <form action="#" onsubmit="sendEmail(); reset(); return false" >
+
+      
             <div class="work_with-us">
                 <div class="left-work">
                     <span class="wewdsd">
-                        <input type="text" placeholder="Name" class="inp12">
-                        <input type="email" placeholder="Email" class="inp12">
+                        <input type="text" placeholder="Name" class="inp12"/>
+                        <input type="email" id="email" placeholder="Email" class="inp12" required>
                     </span>
 
                     <!-- <input type="" placeholder="Phone No" class="inp1"> -->
-                    <input type="text" placeholder="Subject" class="inp13">
-                    <input type="text" placeholder="Discription" class="inp2">
+                    <input type="text" placeholder="Subject" class="inp13"/>
+                    <input type="text" placeholder="Discription" class="inp2"/>
                     <div class="navbar_btn">
-                        <button class="navbtn htn" id="WWU-btn">Work With Us</button>
+                        <button class="navbtn htn" type="submit" >Work With Us</button>
                     </div>
                 </div>
                 <div class="right-work">
@@ -531,6 +533,7 @@
                 </div>
 
             </div>
+        </form>
         </div>
 
     </div>
@@ -607,6 +610,7 @@
 
 
 <script src="script.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
 
     </body>
 </html>
