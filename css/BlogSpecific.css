@@ -1,0 +1,19 @@
+.coverImgPic{
+    height: 200px;
+}
+
+.coverImgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.coverImgTitle{
+    font-size: 33px;
+    padding: 14px;
+    color: aqua;
+}
+.hrinh{
+    font-size: 10px;
+    margin: 25px;
+}

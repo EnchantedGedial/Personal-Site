@@ -324,7 +324,7 @@
 
 
                     <div class="r_card_right_info">
-                        <div class="c3_card_heading">Helpful Tips for Working from Home as a Freelancer</div>
+                        <a src="./BlogSpecific.html" class="c3_card_heading">Helpful Tips for Working from Home as a Freelancer</a>
                         <div class="c3_card_catagery">Freelance</div>
                         <div class="c3_card_shortintro">Gosh jaguar ostrich quail one excited dear hello and bound and the and bland moral misheard roadrunner flapped lynx far that and jeepers giggled far and far</div>
                         <div class="c3_card_meta_info">
@@ -543,7 +543,7 @@
                     <input type="text" placeholder="Subject" class="inp13"/>
                     <input type="text" placeholder="Discription" class="inp2"/>
                     <div class="navbar_btn">
-                        <button class="navbtn htn" type="submit" >Work With Us</button>
+                        <button class="navbtn htn"  onclick="sendEmail(); reset(); return false" >Work With Us</button>
                     </div>
                 </div>
                 <div class="right-work">
@@ -629,6 +629,28 @@
 
 <script src="script.js"></script>
 <script src="https://smtpjs.com/v3/smtp.js"></script>
+<!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
+<script>
+const sendEmail=()=>{
+
+
+
+Email.send({
+    Host : "smtp.gmail.com",
+    Username : "jay.codmik.18@gmail.com",
+    Password : "9916337836",
+    To : 'jayanths2004@gmail.com',
+    From : document.getElementById("email").value,
+    Subject : "This is the subject",
+    Body : "And this is the body"
+}).then(
+  message => alert("sucessfull")
+);
+}
+
+</script>
+
+
 
     </body>
 </html>
