@@ -6,6 +6,7 @@ html{
     scroll-behavior: smooth;  
 }
 .proj_details{
+    /* margin-top: 95px; */
     display: flex   ;
     justify-content: space-evenly;
     gap: 40px;
@@ -17,8 +18,10 @@ html{
     color:  rgb(12,197,216);
 }
 .proj-sec-disc{
-   
-    font-size: 1.5rem;
+
+   padding: 5px;
+   margin-top: 19px;
+    font-size: 23px;
 }
 .proj-info-img{
     width: 100%;
@@ -103,6 +106,7 @@ html{
 
 }
 .bakri{
+    
     display: none;
 }
 .bakrigiri{
@@ -139,4 +143,20 @@ html{
         display: none;
     }
   
+}
+
+.penga{
+  padding-top: 15px;
+}
+.proj-type-head 
+{
+    font-size: 30px;
+color: aquamarine;
+
+}
+.proj-type-head:hover 
+{
+    font-size: 32px;
+color: aqua;
+
 }

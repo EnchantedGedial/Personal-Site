@@ -222,6 +222,7 @@ height: 250px;
     /* margin-top: 22px; */
 }
 .cont1packs_disc{
+    padding: 5px;
     display: flex;
     /* flex-wrap:wrap ; */
     justify-content: center;
